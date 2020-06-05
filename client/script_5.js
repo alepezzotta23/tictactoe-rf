@@ -27,7 +27,7 @@ function getBoardState() {
 
 function isGameOver() {
     const state = getBoardState()
-    const matches = ['XXX', 'OOO'] // This are the string we will be looking for to declare the match over
+    const matches = ['XXXXX', 'OOOOO'] // This are the string we will be looking for to declare the match over
 
     // We are creating a string for each possible winning combination of the cells
     const rows = [
